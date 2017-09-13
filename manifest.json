@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cleanbag",
+  "description": "This extension will clean the bag",
+  "version": "1.0",
+
+  "content_scripts": [
+  {
+    "matches": [
+      "https://www.messenger.com/*"
+    ],
+    "js": ["index.js"]
+  }
+]
+}
